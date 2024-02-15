@@ -12,19 +12,31 @@ Currently learning
 - Four day forecast
 - Weather data by zip -->
 
-## Class level
+---
+
+## File strut is as follows:
+
+### Class level
 
 #### Class date
 
-- xx-xx-xx
-  - file
+- 01Jan24
+  - file.cpp
+  - supporting documents
+
+#### Labs
+
+- LabName
+  - file.cpp
   - supporting documents
 
 ### Examples
 
-## init file
+### init file
 
 ---
+
+~notes~
 
 <!-- ### Week one
 
