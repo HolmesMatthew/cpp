@@ -20,11 +20,11 @@ Currently learning
   - file
   - supporting documents
 
-#### Examples
-
----
+### Examples
 
 ## init file
+
+---
 
 <!-- ### Week one
 
