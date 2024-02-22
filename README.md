@@ -14,7 +14,7 @@ Currently learning
 
 ---
 
-## File strut is as follows:
+## File structure is as follows:
 
 ### Class level
 
@@ -32,11 +32,16 @@ Currently learning
 
 ### Examples
 
+- stuct.cpp
+- treeSort.cpp
+
 ### init file
+
+- used to initialize cpp files quickly
 
 ---
 
-~notes~
+<!-- ~notes~ ~draws a line through characters~-->
 
 <!-- ### Week one
 
