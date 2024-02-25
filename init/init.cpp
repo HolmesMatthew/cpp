@@ -17,7 +17,7 @@ int main()
 
 /* ---------- notes ----------
 ~CoUlD nOT oPeN fIlE~
-~CoUlD nOT oPeN " << fileName << "tRY AgAiN~
+~CoUlD nOT oPeN tRY AgAiN~
 cout << "~CoUlD nOT oPeN " << fileName << "tRY AgAiN~" << endl;
 cout << "eRr0r nO FiLE";
 -------- end notes -------- */ 

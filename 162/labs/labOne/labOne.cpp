@@ -60,7 +60,7 @@ void getRain(double *arr,string *monthPtr,int SIZE)
             cin >> temp;
         }
         *arr =temp;
-        *monthPtr = months[i];
+        *monthPtr = months[i]; //adding the monthPtr was extra work not that i think about it but im to commited to change it
         arr++; monthPtr++;
 
     }
