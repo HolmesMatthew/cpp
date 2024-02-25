@@ -1,7 +1,8 @@
 #include <iostream>
-#include "/Users/matthew_holmes/Programing/C++/Cpp/162/class/20feb24/Rectangle2.h"
+// #include "/Users/matthew_holmes/Programing/C++/Cpp/162/class/20feb24/Rectangle2.h"
+#include "Rectangle2.h"
+#include "Rectangle2.cpp"
 using namespace std;
-
 
 
 int main() 
@@ -51,7 +52,7 @@ int main()
     
     cout <<"------------ Total Area ------------- "<< endl;
     totalArea = kitchen->getArea() + bedroom->getArea() + bedroom->getArea();
-    cout << totalArea << " Sqft";
+    cout << totalArea << "square feet";
 
     delete kitchen;
     delete bathroom;
@@ -85,7 +86,7 @@ Object oriented
     | Personality      |
     | Athletic ability | <-- data members
     --------------------
-> Poly-morphism
+// > Poly-morph
     - two objects with same class but entirely different instantiations
     - every instantiated object from one class can be different 
 
