@@ -1,0 +1,11 @@
+John Smith 123-09-8765 9.00 46 F
+Molly Brown 432-89-7654 9.50 40 F
+Tim Wheeler 239-34-3458 11.25 83 F
+Keil Wader 762-84-6543 6.50 35 P
+Trish Dish 798-65-9844 7.52 40 P
+Anthony Lei 934-43-9843 9.50 56 F
+Kevin Ashes 765-94-7343 4.50 30 P
+Cheryl Prince 983-54-9000 4.65 45 F
+Kim Cares 343-11-2222 10.00 52 F
+Dave Cockroach 356-98-1236 5.75 48 F
+Will Kusick 232-45-2322 15.00 45 P
