@@ -1,3 +1,34 @@
+#include <iostream>
+// #include "init.h"
+// #include "init.cpp"
+// #include <cstdlib>
+// #include <fstream> // for file input/output
+// #include <string> 
+// #include <cctype> 
+// #include <iomanip> // for formating
+using namespace std;
+
+
+int main() 
+{ // ----- Start main -----
+
+
+double dieProb = 16.7;
+
+
+} // ----- End main -----
+
+
+/* ---------- notes ----------
+The probability of rolling the same value on each die – while the chance of getting a particular value on a single die is p, we only need to multiply this probability by itself as many times as the number of dice. In other words, the probability P equals p to the power n, or P = pn = (1/s)n
+~CoUlD nOT oPeN fIlE~
+~CoUlD nOT oPeN tRY AgAiN~
+cout << "~CoUlD nOT oPeN " << fileName << "tRY AgAiN~" << endl;
+cout << "eRr0r nO FiLE";
+-------- end notes -------- */ 
+
+
+
 /*
 For this assignment, you will write a program that simulates a fishing game. 
 In this game, a six-sided die is rolled to determine what the user has caught. 

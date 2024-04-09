@@ -52,6 +52,7 @@ const int SIZE =10;
             break;
         case 3: // remove
             cout << "Enter the part you would like to edit:\n";
+            cin.ignore();
             cin.clear();
             getline(cin,part);
             removeParts(bin,SIZE, part);

@@ -32,12 +32,18 @@ Currently learning
 
 ### Examples
 
-- stuct.cpp
-- treeSort.cpp
+- class
+- constructors
+- randNum
+- sort
+- struct
 
-### init file
+### init
 
-- used to initialize cpp files quickly
+- init.cpp
+- init.h
+- initFunc.cpp
+- notes.cpp
 
 ---
 
