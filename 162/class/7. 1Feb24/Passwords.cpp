@@ -56,7 +56,8 @@ int main()
         
 
 // When done, remember to free the allocated memory;
-    // delete[] password;
+    delete[] password;
+    char* password = nullptr;
 
 } 
 // ----- End main -----
