@@ -31,7 +31,8 @@ Assume you are writing an application that will calculate the amount of interest
 
 nouns = classes || data members
 verbs = methods/member function
-
+- = private 
++ = public
 nouns
 -----
 savings account - holds funds, can withdraw and deposit

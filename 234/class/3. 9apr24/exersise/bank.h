@@ -5,18 +5,14 @@
 #include <string>
 using std::string;
 
-class account {
+class Account {
     private:
         string memName;
         int memNum;
         double accountFunds;
         string dateDeposit;
-        
-
-
-
     public:
-    
+
 
 
 
