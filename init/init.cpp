@@ -1,6 +1,6 @@
 #include <iostream>
-// #include "init.h"
-// #include "init.cpp"
+#include "test.h"
+// #include "test.cpp"
 // #include <cstdlib>
 // #include <fstream> // for file input/output
 // #include <string> 
@@ -12,7 +12,8 @@ using namespace std;
 int main() 
 { // ----- Start main -----
 
-
+    Test<char, char> test3('Y', 'N');
+    test3.Show();
 
 } // ----- End main -----
 

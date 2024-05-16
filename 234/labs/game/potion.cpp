@@ -13,10 +13,7 @@ Potion::Potion(string name, string desc, string potency, double cost){
     potency = "";
     cost = 0;
 }
-    // DTOR
-Potion::~Potion(){
-
-        }
+    
     // CPY_CTOR
 Potion::Potion(const Potion &rhs){
     if (this != &rhs)
@@ -31,8 +28,13 @@ Potion& Potion::operator=(const Potion &rhs){
 }
     // MOVE_CTR
 
-/*                                       */
+/* ~ add me ~ */
 
+    // DTOR
+Potion::~Potion(){
+
+        }
+        
     // SETTER
 void Potion::setName(string n){
     name = n;
