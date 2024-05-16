@@ -1,0 +1,10 @@
+﻿  PotionsGame.cpp
+e:\users\rconverse\Downloads\Thompson_Lab4\PotionsGame\String.h(33,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\users\rconverse\Downloads\Thompson_Lab4\PotionsGame\String.h(47,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\users\rconverse\Downloads\Thompson_Lab4\PotionsGame\String.h(89,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\users\rconverse\Downloads\Thompson_Lab4\PotionsGame\String.h(109,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\users\rconverse\Downloads\Thompson_Lab4\PotionsGame\Money.h(139,1): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+e:\users\rconverse\Downloads\Thompson_Lab4\PotionsGame\Money.h(161,31): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+e:\users\rconverse\Downloads\Thompson_Lab4\PotionsGame\Potency.h(101,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+e:\users\rconverse\Downloads\Thompson_Lab4\PotionsGame\Potency.h(132,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  PotionsGame.vcxproj -> e:\users\rconverse\Downloads\Thompson_Lab4\PotionsGame\x64\Debug\PotionsGame.exe
