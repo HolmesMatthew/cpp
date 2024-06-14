@@ -13,7 +13,6 @@ class Character {
     private:
         string name;
         DynamicArray<Potion*> bag;
-        DynamicArray<Coin> coinPouch;
         
     public:
           // Constructor
@@ -30,11 +29,9 @@ class Character {
         }
 
         // Method to add a Items to the bag
-        void addItem(Potion *potion) {
+        void addItem(Potion* potion) {
             bag.addItem(potion);
         }
-
-        // Method to add a Coin to the coinPouch
 
 
         // Method to remove a Potion from the bag by index
@@ -42,14 +39,16 @@ class Character {
             bag.removeItem(index);
         }
 
-        // Method to remove a Coin from the coinPouch by index
+
 
 
         // Getter methods
         string getName() const {
             return name;
         }
-
+        Potion* getBagItem(int index) const {
+            return bag.getItem(index);
+        }
         DynamicArray<Potion*> getBag() const {
             return bag;
         }

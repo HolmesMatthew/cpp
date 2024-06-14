@@ -16,7 +16,7 @@ private:
 public:
     // Constructor
     DynamicArray();
-    DynamicArray(int m_elements,int m_capacity,string m_type);
+    DynamicArray(int m_elements,int capacity);
 
     // Destructor
     ~DynamicArray();

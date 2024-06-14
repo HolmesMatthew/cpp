@@ -8,18 +8,18 @@ using namespace std;
 
 // CTOR
 Potion::Potion(string name, string desc, string potency, double cost) {
-    this->name = name;
-    this->desc = desc;
-    this->potency = potency;
-    this->cost = cost;
+    name = name;
+    desc = desc;
+    potency = potency;
+    cost = cost;
 }
     
     // CPY_CTOR
 Potion::Potion(const Potion &rhs) {
-    this->name = rhs.name;
-    this->desc = rhs.desc;
-    this->potency = rhs.potency;
-    this->cost = rhs.cost;
+    name = rhs.name;
+    desc = rhs.desc;
+    potency = rhs.potency;
+    cost = rhs.cost;
 }
     // OVRLOAD_CTR
 Potion& Potion::operator=(const Potion &rhs){
