@@ -1,0 +1,10 @@
+Instructions:
+
+Write a Dynamic Array class that handles the appropriate operations 
+to create a dynamic array of potions. 
+
+Make sure to test the functionality of the class, 
+as it will be used in the next lab. 
+
+I want the following class diagram as the minimum functionality however; 
+you can add other functions that you deem necessary.
