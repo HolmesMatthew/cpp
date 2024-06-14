@@ -18,18 +18,16 @@ DynamicArray<T>::DynamicArray() {
 
 template <typename T>
 DynamicArray<T>::~DynamicArray() {
-    delete[] m_array;
+    delete[] m_array; // Deallocate memory for m_array
 }
+
 
 template <typename T>
 void DynamicArray<T>::addItem(const T& item) {
-
-    if (m_array != 0 && m_elements < m_capacity) {
-        m_array[m_elements] = item;
-        m_elements++;
-    } else {
-        cout << "Array is full" << std::endl;
+    if (m_elements >= m_capacity) {
+        resizeArray(m_capacity * 2); // Resize the array when full
     }
+    m_array[m_elements++] = item;
 }
 
 template <typename T>

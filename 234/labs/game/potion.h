@@ -17,26 +17,18 @@ class Potion {
         double cost;
 
     public:
-    Potion(){
-        name = "";
-        desc = "";
-        potency = "";
-        cost = 0.0;
-
-    }
+    Potion();
     // CTOR
-        Potion(string, string, string, double);
+    Potion(string, string, string, double);
     // DTOR
     ~Potion();
-
-    
     // CPY_CTOR
         Potion(const Potion &rhs);
     // OVERLOAD_CTR
         Potion& operator=(const Potion &rhs);
-    // MOVE_CTR
+    // MOVE_CTr
 
-    // Cout Overload
+    
 
     // SETTER
         void setName(string n);
@@ -48,9 +40,6 @@ class Potion {
         string getDesc() const;
         string getPotency() const;
         double getCost() const;
-
-        
-
 };
 
 
