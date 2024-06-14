@@ -1,0 +1,4 @@
+Instructions:
+
+Edit previously created code (especially the dynamic array class) 
+to add in exception and error handling where needed.

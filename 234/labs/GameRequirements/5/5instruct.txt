@@ -1,0 +1,8 @@
+Instructions:
+
+1. Create a class template called "Array" for your dynamic array class. 
+The class should be able to store elements of any data type.
+
+** Ensure that your code is well-documented, 
+with clear explanations of the functionalities and any assumptions made.
+

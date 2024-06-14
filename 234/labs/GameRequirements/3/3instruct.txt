@@ -1,0 +1,16 @@
+Instructions:
+
+Use the following UML class diagram shell to create a 
+RPG Character. 
+
+The character will have three data members: a name, a back pack and a coin pouch.
+
+Stipulations
+Create the UML diagram that describes the entire system so far.
+All information about the character will be read from and written to a file.
+Any changes to the character's backpack or coin pouch will be written to a file when the program exits.
+Plan for the capability of having multiple characters.
+The potions will be stored in your Dynamic Array class.
+Store the character in an array (not dynamic).
+You should be able to display each character in an understandable manner.
+It is up to you to decide the appropriate methods and data members needed for the new classes.
