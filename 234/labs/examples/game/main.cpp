@@ -11,13 +11,11 @@
 #include "dynamicArray.cpp"
 #include "potion.h"
 #include "potion.cpp"
-
+#include "coin.h"
+#include "character.h"
 
 using namespace std;
-#include "character.h"
-#include "potion.h"
-#include "coin.h"
-#include <iostream>
+
 
 int main() {
     // Create a character
