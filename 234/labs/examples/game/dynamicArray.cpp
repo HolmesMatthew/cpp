@@ -25,9 +25,8 @@ DynamicArray<T>::~DynamicArray() {
 template <typename T>
 void DynamicArray<T>::addItem(const T& item) {
     if (m_elements >= m_capacity) {
-        resizeArray(m_capacity * 2); // Resize the array when full
+        m_array[m_elements++] = item;
     }
-    m_array[m_elements++] = item;
 }
 
 template <typename T>
@@ -36,9 +35,6 @@ void DynamicArray<T>::removeItem(int index) {
         cout << "Index is out of bounds" << endl;
         return;
     }
-    // If T is a pointer, delete the object pointed to by the array element
-    delete m_array[index]; // Only do this if you're sure T is a pointer to dynamically allocated memory
-
     // Shift elements down
     for (int i = index; i < m_elements - 1; i++) {
         m_array[i] = m_array[i + 1];
@@ -59,6 +55,11 @@ T DynamicArray<T>::getItem(int index) const {
 
 template <typename T>
 int DynamicArray<T>::getSize() {
+    return m_capacity;
+}
+
+template <typename T>
+int DynamicArray<T>::getElements() {
     return m_elements;
 }
 

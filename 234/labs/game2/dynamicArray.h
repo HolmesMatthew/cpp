@@ -34,6 +34,8 @@ public:
     // Get the total number of items in the array
     int getSize();
 
+    int getElements();
+
     // Check if the array is empty
     bool isEmpty();
 
